@@ -1,0 +1,24 @@
+{
+    "name": "drezynsoft/nested-set",
+    "type": "library",
+    "description": "This is the set of useful methods to manage nested set pattern to acomplish data hierarchy with children, parents, acendands, descendats and siblings. What is more it can help in malipulation of it (modify, add, remove...)",
+    "homepage": "http://drezynsoft.fotokrajobrazy.warmia.pl/php-projects/nested-set",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "DrezynSoft",
+            "email": "dj_drezyna@wp.pl"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DrezynSoft\\NestedSet\\": "src"
+        }
+    }
+}
